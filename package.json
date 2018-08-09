@@ -1,0 +1,40 @@
+{
+  "name": "slackpad",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.expo.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "format": "prettier --write 'src/**/*.{js,ts,tsx}'",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "devDependencies": {
+    "@types/expo": "^27.0.5",
+    "@types/expo__vector-icons": "^6.2.3",
+    "@types/react": "^16.4.6",
+    "@types/react-native": "^0.55.26",
+    "jest-expo": "~27.0.0",
+    "prettier": "^1.13.7",
+    "react-native-scripts": "1.14.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.3.1",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "expo": "^27.0.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
+  }
+}
